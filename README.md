@@ -30,7 +30,7 @@ The data is collected on an event-based basis and updated in real time to an IoT
 ## 🧱 Structure?
 To avoid violating GDPR and the agreement of data confidentiality with the facility manager of the building, the data will not be made public here.  
 
-This repository contains 3 folders:
+This repository contains 2 folders:
 - **src**
 - **media** (media files)
   
