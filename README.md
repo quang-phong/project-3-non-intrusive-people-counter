@@ -25,7 +25,7 @@ This device has 2 active infrared sensors (IR sensors), working on the main prin
 
 Besides, except for cases when occupants passing at a very fast pace, which is not usual, the device can detect the direction and the presence of visitors. As for each sensor, one emitter shoots out a pulse of IR light, which then hits objects blocking its way and is reflected back to the receiver. If it does not face any obstacle, the beam will not be directed back, which means readings of 0 values. In this case, the IR light will hit a couch at a fixed distance and be reflected back to the receiver, thus the sensor will always return stable readings. When somebody passes the device, they have to block the IR light emitted from either of the two sensors first, resulting in suddenly high values read by that sensor. Then the code behind it ensures the transition state is turned on, and the device only looks for the next abnormally high values returned by the other sensor to conclude that one entry or exit has been detected.
 
-The data is collected on an event-based basis and updated in real time to an IoT platform.
+The data are collected on an event-based basis and updated in real time to an IoT platform.
 
 ## 🧱 Structure?
 To avoid violating GDPR and the agreement of data confidentiality with the facility manager of the building, the data will not be made public here.  
